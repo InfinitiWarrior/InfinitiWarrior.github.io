@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+}
+
+.scroll-container {
+    overflow: auto;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    scroll-snap-align: start;
+    scroll-snap-stop: always;
+    height: 100vh;
+    flex: 0 0 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ced4da;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease-in-out;
+}
+
+.web-development { background-color: #3498db; color: #fff; }
+.media { background-color: #e74c3c; color: #fff; }
+.about-me { background-color: #f39c12; color: #fff; }
+.contact { background-color: #9b59b6; color: #fff; }
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.contact-link {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.contact-link:hover {
+    color: #e1b12c;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 15px;
+    }
+}
+/* Remove hyperlink color (underline and color) */
+a {
+    text-decoration: underline !important; /* Remove underline */
+    color: inherit !important; /* Use the parent element's color */
+}
+
+/* Specify a specific color for hyperlinks if needed */
+a:hover {
+    color: darkorange; /* Change 'YourColor' to the desired color */
+}
