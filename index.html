@@ -2,12 +2,46 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1 class="My_Name"></h1>
-    
+    <div class="container">
+        <div class="left-panel">
+            <div class="profile">
+                <h1 class="my-name">Daniel</h1>
+                <img src="placeholder.png" alt="Daniel's Photo" class="profile-pic">
+                <p class="profile-description">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Iure accusamus cupiditate nihil odio dolore doloremque a obcaecati quasi natus veritatis nostrum, rem fugiat, sapiente suscipit alias exercitationem!
+                    Eligendi, id architecto!
+                </p>
+            </div>
+        </div>
+        <div class="right-panel">
+            <nav class="navbar">
+                <button id="experience-btn">Experience</button>
+                <button id="interests-btn">Interests</button>
+                <button id="github-btn">Github</button>
+            </nav>
+            <div class="content">
+                <div id="experience" class="content-section">
+                    <h2>Experience</h2>
+                    <p>Details about your work experience...</p>
+                </div>
+                <div id="interests" class="content-section" style="display: none;">
+                    <h2>Interests</h2>
+                    <p>Details about your interests...</p>
+                </div>
+                <div id="github" class="content-section" style="display: none;">
+                    <h2>My Github and my projects</h2>
+                    <p>Details about your Github...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
