@@ -131,9 +131,14 @@ body {
     position: relative;
     overflow: hidden;
 }
-.card-img{
+.card-git-img{
     text-align: right;
     margin-left: 15%;
+}
+
+.card-img{
+    text-align: right;
+    margin-left: 2.5%;
 }
 
 .card h3 {
