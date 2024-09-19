@@ -5,13 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="container">
         <div class="left-panel">
             <div class="profile">
                 <h1 class="my-name">Daniel</h1>
-                <img src="Me.png" alt="Daniel's Photo" class="profile-pic">
+                <img src="images/Me.png" alt="Daniel's Photo" class="profile-pic">
                 <p class="profile-description">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Iure accusamus cupiditate nihil odio dolore doloremque a obcaecati quasi natus veritatis nostrum, rem fugiat, sapiente suscipit alias exercitationem!
@@ -22,7 +23,7 @@
         <div class="right-panel">
             <nav class="navbar">
                 <button id="experience-btn">Experience</button>
-                <button id="interests-btn">Interests</button>
+                <button id="interests-btn">Tools</button>
                 <button id="github-btn">Github</button>
             </nav>
             <div class="content">
@@ -31,32 +32,97 @@
                     <p>Details about your work experience...</p>
                 </div>
                 <div id="interests" class="content-section" style="display: none;">
-                    <h2>Interests</h2>
-                    <p>Details about your interests...</p>
+                    <h2>Tools</h2>
+                    <div class="icons">
+                        <div class="section">
+                            <h1>Development</h1>
+                            <div class="icon-group">
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank" title="HTML">
+                                    <i class="fab fa-html5" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank" title="CSS">
+                                    <i class="fab fa-css3-alt" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" title="JavaScript">
+                                    <i class="fab fa-js" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://reactjs.org/" target="_blank" title="React">
+                                    <i class="fab fa-react" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://vuejs.org/" target="_blank" title="Vue.js">
+                                    <i class="fab fa-vuejs" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://www.python.org/" target="_blank" title="Python">
+                                    <i class="fab fa-python" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://www.java.com/" target="_blank" title="Java">
+                                    <i class="fab fa-java" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://git-scm.com/" target="_blank" title="Git">
+                                    <i class="fab fa-git" style="font-size: 50px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <h1>Tools</h1>
+                            <div class="icon-group">
+                                <a href="https://www.docker.com/" target="_blank" title="Docker">
+                                    <i class="fab fa-docker" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://aws.amazon.com/" target="_blank" title="AWS">
+                                    <i class="fab fa-aws" style="font-size: 50px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <h1>Databases</h1>
+                            <div class="icon-group">
+                                <a href="https://www.mysql.com/" target="_blank" title="MySQL">
+                                    <i class="fas fa-database" style="font-size: 50px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="section">
+                            <h1>OS</h1>
+                            <div class="icon-group">
+                                <a href="https://www.apple.com/macos/" target="_blank" title="macOS">
+                                    <i class="fab fa-apple" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://www.microsoft.com/windows" target="_blank" title="Windows">
+                                    <i class="fab fa-windows" style="font-size: 50px;"></i>
+                                </a>
+                                <a href="https://www.linux.org/" target="_blank" title="Linux">
+                                    <i class="fab fa-linux" style="font-size: 50px;"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
                 <div id="github" class="content-section" style="display: none;">
                     <h2>My Github and my projects</h2>
                     <h3>The link to the projects are in the README</h3>
                     <div class="project-cards">
+                        <!-- Project Cards -->
                         <div class="card" onclick="window.location.href='https://github.com/InfinitiWarrior'">
                             <h3>Github Profile</h3>
-                            <img class="card-git-img" src="github_logo.png" alt="A picture of the Github Logo" width="225px" height="225px">
+                            <img class="card-git-img" src="images/github_logo.png" alt="A picture of the Github Logo" width="225px" height="225px">
                             <p>This is My github profile and here you can see some unlinked projects, and my activity</p>
                         </div>
                         <div class="card" onclick="window.location.href='https://github.com/InfinitiWarrior/3D-suduko'">
                             <h3>3D-sudoku</h3>
-                            <img class="card-img" src="3d-suduko.png" alt="Picture of a unfisnished 3 dimensional suduko cube" width="275px" height="225px">
-                            <p>This is sudoku but on/in a cube, so it looks more advanced but its just a bit confusing so far</p>
+                            <img class="card-img" src="images/3d-suduko.png" alt="Picture of a unfinished 3 dimensional sudoku cube" width="275px" height="225px">
+                            <p>This is sudoku but on/in a cube, so it looks more advanced but it's just a bit confusing so far</p>
                         </div>
                         <div class="card" onclick="window.location.href='https://github.com/InfinitiWarrior/Tycoon-Game'">
-                            <h3>Website tycoon</h3>
-                            <img class="card-img" src="tycoon-game.png" alt="Picture of a pretty empty tycoon game" width="275px" height="225px">
-                            <p>A school assigment about making a clicker/tycoon game, in the game u click to earn money, to automate the process</p>
+                            <h3>Website Tycoon</h3>
+                            <img class="card-img" src="images/tycoon-game.png" alt="Picture of a pretty empty tycoon game" width="275px" height="225px">
+                            <p>A school assignment about making a clicker/tycoon game. In the game, you click to earn money to automate the process.</p>
                         </div>
                         <div class="card" onclick="window.location.href='https://github.com/InfinitiWarrior/tverfaglig2'">
-                            <h3>Scam info site</h3>
-                            <img class="card-img" src="scam.png" alt="Picture of a Website about scams" width="275px" height="225px">
-                            <p>A school assigment to make a website that informs you about scams, it also has a few podcasts which was a english assigment</p>
+                            <h3>Scam Info Site</h3>
+                            <img class="card-img" src="images/scam.png" alt="Picture of a website about scams" width="275px" height="225px">
+                            <p>A school assignment to make a website that informs you about scams. It also has a few podcasts as part of an English assignment.</p>
                         </div>
                     </div>
                 </div>

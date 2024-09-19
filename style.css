@@ -187,3 +187,43 @@ body {
     position: relative;
     z-index: 1;
 }
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 30px; /* Adjust spacing between sections as needed */
+}
+
+.section h1 {
+    margin: 0;
+    font-size: 24px; /* Adjust as needed */
+    margin-bottom: 10px; /* Space between title and icons */
+    color: #c6f7cc; /* Header color */
+}
+
+.icon-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust spacing between icons as needed */
+}
+
+.icon-group i {
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #c6f7cc; /* Default icon color */
+}
+
+.icon-group i:hover {
+    transform: scale(1.2); /* Scale effect on hover */
+    color: #e0e0e0; /* Color on hover */
+}
+
+.icon-group i {
+    font-size: 50px;
+    color: #D3D3D3; /* Light Gray */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-group a:hover i {
+    transform: scale(1.2); /* Scale effect on hover */
+    color: #FFFFFF; /* Change to white on hover for better contrast */
+}
