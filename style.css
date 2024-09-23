@@ -14,7 +14,7 @@ body {
     width: 25%;
     background-color: #1f1f1f;
     display: flex;
-    justify-content: top;
+    justify-content: flex-start;
     align-items: center;
     flex-direction: column;
     border-right: 2px solid #c6f7cc;
@@ -96,7 +96,7 @@ body {
 
 .navbar button:hover {
     background-color: transparent;
-    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4); /* Add a shadow for a lifting effect */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
 }
 
 .content {
@@ -111,7 +111,6 @@ body {
     display: block;
 }
 
-/* Styles for Project Cards */
 .project-cards {
     display: flex;
     flex-wrap: wrap;
@@ -128,17 +127,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
-}
-.card-git-img{
-    text-align: right;
-    margin-left: 15%;
 }
 
-.card-img{
-    text-align: right;
-    margin-left: 2.5%;
+.card img {
+    width: 100%;
+    border-radius: 10px;
 }
 
 .card h3 {
@@ -149,81 +142,83 @@ body {
     color: #a0a0a0;
 }
 
-.card::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    z-index: 0;
-}
-
-.card:hover::before {
-    opacity: 0.2;
-}
-
 .card:hover {
     transform: translateY(-10px) scale(1.05);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
 }
 
-.card:hover h3, .card:hover p {
-    color: #ffffff;
-}
-
-.card:hover p {
-    color: #e0e0e0;
-}
-
-.card:hover h3 {
-    color: #c6f7cc;
-}
-
-.card h3, .card p {
-    position: relative;
-    z-index: 1;
-}
-
 .icons {
     display: flex;
     flex-direction: column;
-    gap: 30px; /* Adjust spacing between sections as needed */
+    gap: 30px;
 }
 
 .section h1 {
     margin: 0;
-    font-size: 24px; /* Adjust as needed */
-    margin-bottom: 10px; /* Space between title and icons */
-    color: #c6f7cc; /* Header color */
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #c6f7cc;
 }
 
 .icon-group {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px; /* Adjust spacing between icons as needed */
+    gap: 20px;
+    justify-content: center;
 }
 
-.icon-group i {
-    transition: transform 0.3s ease, color 0.3s ease;
-    color: #c6f7cc; /* Default icon color */
-}
-
-.icon-group i:hover {
-    transform: scale(1.2); /* Scale effect on hover */
-    color: #e0e0e0; /* Color on hover */
-}
-
-.icon-group i {
+.icon-group a {
+    color: #D3D3D3;
     font-size: 50px;
-    color: #D3D3D3; /* Light Gray */
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
-.icon-group a:hover i {
-    transform: scale(1.2); /* Scale effect on hover */
-    color: #FFFFFF; /* Change to white on hover for better contrast */
+.icon-group a:hover {
+    transform: scale(1.2);
+    color: #e0e0e0;
+}
+.contact{
+    text-align:center;
+}
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        height: auto; /* Allow height to adjust */
+    }
+
+    .left-panel, .right-panel {
+        width: 100%;
+        border-right: none;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar button {
+        margin: 5px 0;
+    }
+
+    .profile-pic {
+        width: 120px;
+        height: 120px;
+    }
+
+    .project-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%; /* Make cards full width */
+        max-width: 300px; /* Limit width */
+    }
+
+    .profile-description {
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .contact{
+        text-align: center;
+    }
 }
