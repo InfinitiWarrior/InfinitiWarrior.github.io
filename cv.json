@@ -1,7 +1,7 @@
 {
   "name": "Daniel Axelson",
-  "role": "Software Developer, Penetration Tester and Begginner Bug Bounty Hunter",
-  "tagline": "Developing for small startups, public insitutions, and personal projects.",
+  "role": "Software Developer, Penetration Tester and Beginner Bug Bounty Hunter",
+  "tagline": "Developing for small startups, public institutions, and personal projects.",
   "dataTheme": "brg",
   "about": [
     "I am a versatile developer and junior pentester with experience working on solutions for public institutions. My work spans both front-end and back-end development, with a strong focus on building secure, reliable, and maintainable systems.",
@@ -33,28 +33,28 @@
       "role": "Full Stack Developer",
       "company": "Fyrstikken",
       "time": "Aug 2023 – Present • Oslo, Norway • On-site & Remote",
-      "summary": "A Single Project for the School i was attending, but we never made sollutions that were modular enough to be able to be maintained by people with o experience with web development, so the team is currently making 1 final product.",
+      "summary": "A Single Project for the School I was attending, but we never made solutions that were modular enough to be able to be maintained by people with no experience with web development, so the team is currently making 1 final product.",
       "tags": ["TypeScript", "Front&Back-End Development", "Server configuration" ]
     },
     {
       "role": "IT Operations & System Administrator Apprentice",
-      "company": "Velferdsetaten, Oslo Commune",
+      "company": "Velferdsetaten, Oslo Kommune/Municipality",
       "time": "Aug 2025 – Present • Oslo, Norway • On-site",
-      "summary": "Baisc Permission, and access control using inrune, azure, and IDA. Also doing pc repairs & maintenance, as well as some helpdesk support. Local Network administration using switches, firewalls and access points.",
+      "summary": "Basic Permission, and access control using intune, azure, and IDA. Also doing pc repairs & maintenance, as well as some helpdesk support. Local Network administration using switches, firewalls and access points.",
       "tags": ["Internet Design", "Azure", "Technical Support", "Access conrol" ]
     },
     {
       "role": "Frontend Web Developer Intern",
       "company": "Kernekaren AS",
       "time": "March 2024 – March 2024 • Oslo, Norway • On-site",
-      "summary": "One‑week internship doing web development by migrating from wix aswell as basic SEO tasks.",
+      "summary": "One‑week internship doing web development by migrating from wix as well as basic SEO tasks.",
       "tags": ["Web Development", "SEO"]
     },
     {
       "role": "Tech Support Intern",
       "company": "Cap 10",
       "time": "Oct 2024 – Oct 2024 & Jan 2025 - Feb 2025 • Oslo, Norway • On-site",
-      "summary": "In toal a four‑week internship wiping pc's for sensitive data, repairing hardware, helping customers with technical issues, and setting up new devices for customers. Also did some courera certifications and network setup.",
+      "summary": "In total a four‑week internship wiping PCs for sensitive data, repairing hardware, helping customers with technical issues, and setting up new devices for customers. Also did some courera certifications and network setup.",
       "tags": ["Technical Support", "ChatGPT", "Azure"]
     }
   ],
@@ -81,19 +81,19 @@
     },
     {
       "name": "Scam info site",
-      "description": "A Website i made as my school assigment during my first few months of web development, and one of my first projects.",
+      "description": "A Website I made as my school assignment during my first few months of web development, and one of my first projects.",
       "tags": ["Vanilla JS", "HTML", "CSS"],
       "url": "https://github.com/InfinitiWarrior/tverfaglig2"
     },
     {
       "name": "Rust Clicker Game",
-      "description": "WIP Simple clicker game i made to learn Rust and Eframe + Egui GUI library basics. Features saving and loading game state.",
+      "description": "WIP Simple clicker game I made to learn Rust and Eframe + Egui GUI library basics. Features saving and loading game state.",
       "tags": ["Rust"],
       "url": "https://github.com/InfinitiWarrior/rust-cliker-game"
     },
     {
       "name": "AXO",
-      "description": "Game development project assigment assigned by my school, the team consited of 2 devs, and 6 artists. Made using Godot Engine.",
+      "description": "Game development project assignment assigned by my school, the team consited of 2 devs, and 6 artists. Made using Godot Engine.",
       "tags": ["Godot"],
       "url": "https://github.com/InfinitiWarrior/spillutvikling-2025"
     }
