@@ -33,7 +33,7 @@
       "role": "Full Stack Developer",
       "company": "Fyrstikken",
       "time": "Aug 2023 – Present • Oslo, Norway • On-site & Remote",
-      "summary": "A Single Project for the School I was attending, but we never made solutions that were modular enough to be able to be maintained by people with no experience with web development, so the team is currently making 1 final product.",
+      "summary": "Built a voting platform for a school awards event, focusing on making the solution easy to maintain by non-developers. Worked across frontend, backend, and server configuration.",
       "tags": ["TypeScript", "Front&Back-End Development", "Server configuration" ]
     },
     {
