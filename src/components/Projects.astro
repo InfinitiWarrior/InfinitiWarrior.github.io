@@ -1,0 +1,62 @@
+---
+type Project = {
+  name: string;
+  description: string;
+  tags?: string[];
+  url?: string;
+  features?: string[];
+  image?: string;
+  highlight?: string;
+};
+const { projects = [] as Project[] } = Astro.props as { projects?: Project[] };
+const VISIBLE_COUNT = 4;
+---
+<div class="grid gap-8 md:grid-cols-2">
+  {projects.map((p, i) => (
+    <div class={`relative pl-4 v-sep ${i >= VISIBLE_COUNT ? 'hidden js-more-proj' : ''}`}>
+      {p.highlight ? (<div class="meta mb-1">{p.highlight}</div>) : null}
+      <div class="flex items-center justify-between">
+        <div class="font-semibold text-white text-lg">{p.name}</div>
+        <a href={p.url ?? '#'} target={p.url ? '_blank' : undefined} rel="noreferrer noopener" class="link-raw">View ↗</a>
+      </div>
+      <div class="text-muted">{p.description}</div>
+      {p.features && p.features.length ? (
+        <ul class="list-dash text-muted mt-1">
+          {p.features.map(f => (<li>{f}</li>))}
+        </ul>
+      ) : null}
+      {p.tags && p.tags.length ? (
+        <div class="flex flex-wrap gap-3 mt-1">{p.tags.map(t => (<span class="tag-raw">#{t}</span>))}</div>
+      ) : null}
+      {p.image ? (
+        <div class="mt-3">
+          <a href={p.image} data-fancybox="projects" class="link-raw">Screenshot</a>
+        </div>
+      ) : null}
+    </div>
+  ))}
+  {projects.length > VISIBLE_COUNT ? (
+    <div class="md:col-span-2 flex items-center gap-3">
+      <button id="proj-show-btn" class="btn-outline w-fit" aria-expanded="false">Show more</button>
+      <button id="proj-hide-btn" class="btn-outline w-fit hidden" aria-expanded="true">Hide</button>
+    </div>
+  ) : null}
+</div>
+<script>
+  const projShowBtn = document.getElementById('proj-show-btn');
+  const projHideBtn = document.getElementById('proj-hide-btn');
+  if (projShowBtn && projHideBtn) {
+    projShowBtn.addEventListener('click', () => {
+      document.querySelectorAll('.js-more-proj').forEach((el) => el.classList.remove('hidden'));
+      projShowBtn.classList.add('hidden');
+      projHideBtn.classList.remove('hidden');
+      projHideBtn.focus();
+    });
+    projHideBtn.addEventListener('click', () => {
+      document.querySelectorAll('.js-more-proj').forEach((el) => el.classList.add('hidden'));
+      projHideBtn.classList.add('hidden');
+      projShowBtn.classList.remove('hidden');
+      projShowBtn.focus();
+    });
+  }
+</script>

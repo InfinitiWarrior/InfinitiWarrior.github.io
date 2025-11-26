@@ -1,0 +1,106 @@
+{
+  "name": "Daniel Axelson",
+  "role": "Software Developer, Penetration Tester and Begginner Bug Bounty Hunter",
+  "tagline": "Developing for small startups, public insitutions, and personal projects.",
+  "dataTheme": "brg",
+  "about": [
+    "I am a versatile developer and junior pentester with experience working on solutions for public institutions. My work spans both front-end and back-end development, with a strong focus on building secure, reliable, and maintainable systems.",
+    "I enjoy tackling a wide range of technical challenges and learning new technologies as I go. As a jack-of-all-trades, I adapt quickly, explore modern frameworks, and continuously develop my skills while keeping a solid foundation in core software engineering and cybersecurity principles."
+  ],
+  "skills": [
+    {
+      "icon": "twemoji:high-voltage",
+      "title": "Frontend",
+      "items": ["Next.js", "React", "TypeScript", "Astro", "Vite"]
+    },
+    {
+      "icon": "ph:wrench-bold",
+      "title": "Backend",
+      "items": ["TypeScript", "Node.js", "JVM frameworks", "Flask", "Rust Axum"]
+    },
+    {
+      "icon": "solar:lock-keyhole-broken",
+      "title": "Database",
+      "items": ["ScyllaDB", "SQLite3", "PostgreSQL", "MySQL/MariaDB"]
+    },
+    {
+      "icon": "ph:cloud",
+      "title": "Cloud",
+      "items": ["Azure", "GCP", "DigitalOcean", "Hostinger"] }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Developer",
+      "company": "Fyrstikken",
+      "time": "Aug 2023 – Present • Oslo, Norway • On-site & Remote",
+      "summary": "A Single Project for the School i was attending, but we never made sollutions that were modular enough to be able to be maintained by people with o experience with web development, so the team is currently making 1 final product.",
+      "tags": ["TypeScript", "Front&Back-End Development", "Server configuration" ]
+    },
+    {
+      "role": "IT Operations & System Administrator Apprentice",
+      "company": "Velferdsetaten, Oslo Commune",
+      "time": "Aug 2025 – Present • Oslo, Norway • On-site",
+      "summary": "Baisc Permission, and access control using inrune, azure, and IDA. Also doing pc repairs & maintenance, as well as some helpdesk support. Local Network administration using switches, firewalls and access points.",
+      "tags": ["Internet Design", "Azure", "Technical Support", "Access conrol" ]
+    },
+    {
+      "role": "Frontend Web Developer Intern",
+      "company": "Kernekaren AS",
+      "time": "March 2024 – March 2024 • Oslo, Norway • On-site",
+      "summary": "One‑week internship doing web development by migrating from wix aswell as basic SEO tasks.",
+      "tags": ["Web Development", "SEO"]
+    },
+    {
+      "role": "Tech Support Intern",
+      "company": "Cap 10",
+      "time": "Oct 2024 – Oct 2024 & Jan 2025 - Feb 2025 • Oslo, Norway • On-site",
+      "summary": "In toal a four‑week internship wiping pc's for sensitive data, repairing hardware, helping customers with technical issues, and setting up new devices for customers. Also did some courera certifications and network setup.",
+      "tags": ["Technical Support", "ChatGPT", "Azure"]
+    }
+  ],
+  "education": [
+    {
+      "school": "Fyrstikkalleen VGS",
+      "program": "Information Technology and Media Production",
+      "years": "Aug 2023 – Jun 2025",
+      "certificates": ["VG1: 5.0", "VG2: 5.5"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "3D Sudoku",
+      "description": "A WIP 9x9x9 Sudoku game built with Three.js, featuring a 3D grid and interactive number placement.",
+      "tags": ["Javascript", "Three.js"],
+      "url": "https://github.com/InfinitiWarrior/3D-suduko"
+    },
+    {
+      "name": "Fyrstikken",
+      "description": "Audience voting website for a school awards ceremony. Initially built with a separate backend, later migrated to Vercel server functions.",
+      "tags": ["TypeScript", "Astro", "MySQL", "Express.js"],
+      "url": "https://github.com/F21-Fyrstikken/Fyrstikken"
+    },
+    {
+      "name": "Scam info site",
+      "description": "A Website i made as my school assigment during my first few months of web development, and one of my first projects.",
+      "tags": ["Vanilla JS", "HTML", "CSS"],
+      "url": "https://github.com/InfinitiWarrior/tverfaglig2"
+    },
+    {
+      "name": "Rust Clicker Game",
+      "description": "WIP Simple clicker game i made to learn Rust and Eframe + Egui GUI library basics. Features saving and loading game state.",
+      "tags": ["Rust"],
+      "url": "https://github.com/InfinitiWarrior/rust-cliker-game"
+    },
+    {
+      "name": "AXO",
+      "description": "Game development project assigment assigned by my school, the team consited of 2 devs, and 6 artists. Made using Godot Engine.",
+      "tags": ["Godot"],
+      "url": "https://github.com/InfinitiWarrior/spillutvikling-2025"
+    }
+  ],
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/InfinitiWarrior" },
+    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/daniel-axelson-63a2a5290/" },
+    { "label": "Email", "url": "mailto:daaxa001@gmail.com" }
+  ]
+}

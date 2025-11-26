@@ -1,0 +1,40 @@
+---
+const {
+  title = 'Daniel Axelson',
+  description = 'Software developer — frontend, backend, cloud. Begginner bug bounty hunter and junior penetration tester.',
+  theme = 'violet'
+} = Astro.props as { title?: string; description?: string; theme?: string };
+import '../styles/theme.css';
+import '../styles/tailwind.css';
+
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).toString() : undefined;
+---
+<html lang="en" data-theme={theme}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <title>{title}</title>
+    {canonical ? (<link rel="canonical" href={canonical} />) : null}
+    <meta name="theme-color" content="#06100b" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/favicon.svg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    {canonical ? (<meta property="og:url" content={canonical} />) : null}
+    <meta property="og:image" content="/Me.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content="/Me.png" />
+    <script defer src="https://code.iconify.design/iconify-icon/2.1.0/iconify-icon.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/ninja-keys@1.2.2"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+    <script defer src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+  </head>
+  <body>
+    <slot />
+  </body>
+  
+</html>
