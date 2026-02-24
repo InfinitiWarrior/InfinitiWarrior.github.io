@@ -68,8 +68,8 @@
   ],
   "projects": [
     {
-      "name": "3D Sudoku",
-      "description": "A WIP 9x9x9 Sudoku game built with Three.js, featuring a 3D grid and interactive number placement.",
+      "name": "Sudokube",
+      "description": "A 9x9x9 Sudoku game built with Three.js, featuring a 3D grid, 2D plane and interactive number placement.",
       "tags": ["Javascript", "Three.js"],
       "url": "https://github.com/InfinitiWarrior/3D-suduko"
     },
