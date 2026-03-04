@@ -1,6 +1,6 @@
 {
   "name": "Daniel Axelson",
-  "role": "Software Developer, Penetration Tester and Beginner Bug Bounty Hunter",
+  "role": "Security Engineer",
   "tagline": "Developing for small startups, public institutions, and personal projects.",
   "dataTheme": "brg",
   "about": [
@@ -26,7 +26,18 @@
     {
       "icon": "ph:cloud",
       "title": "Cloud",
-      "items": ["Azure", "GCP", "DigitalOcean", "Hostinger"] }
+      "items": ["Azure", "GCP", "DigitalOcean", "Hostinger"]
+    },
+    {
+      "icon": "ph:wrench-bold",
+      "title": "Misc Languages",
+      "items": ["PHP", "Rust", "Lua", "Bash", "Python", "Java", "GDScript", "Virtual Basic", "PowerShell", "C++", "C", "ASM"]
+    },
+    {
+      "icon": "ph:cloud",
+      "title": "Infrastructure",
+      "items": ["VPS Management", "Docker", "Kubernetes", "NGINX", "Cloudflare", "Windows Server", "Linux Server"]
+    }
   ],
   "experience": [
     {
@@ -34,14 +45,14 @@
       "company": "Fyrstikken",
       "time": "Aug 2023 – Present • Oslo, Norway • On-site & Remote",
       "summary": "Built a voting platform for a school awards event, focusing on making the solution easy to maintain by non-developers. Worked across frontend, backend, and server configuration.",
-      "tags": ["TypeScript", "Front&Back-End Development", "Server configuration" ]
+      "tags": ["TypeScript", "Fullstack Development", "Server configuration", "Astro", "Express.js" ]
     },
     {
       "role": "IT Operations & System Administrator Apprentice",
-      "company": "Velferdsetaten, Oslo Kommune/Municipality",
+      "company": "Velferdsetaten, Oslo Kommune",
       "time": "Aug 2025 – Present • Oslo, Norway • On-site",
-      "summary": "Basic Permission, and access control using intune, azure, and IDA. Also doing pc repairs & maintenance, as well as some helpdesk support. Local Network administration using switches, firewalls and access points.",
-      "tags": ["Internet Design", "Azure", "Technical Support", "Access conrol" ]
+      "summary": "Access and permission management using Intune, Azure, and IDA. Also handles PC repairs & maintenance, helpdesk support, and local network administration using switches, firewalls, and access points.",
+      "tags": ["Network Administration", "Azure", "Technical Support", "Access control" ]
     },
     {
       "role": "Frontend Web Developer Intern",
@@ -54,8 +65,8 @@
       "role": "Tech Support Intern",
       "company": "Cap 10",
       "time": "Oct 2024 – Oct 2024 & Jan 2025 - Feb 2025 • Oslo, Norway • On-site",
-      "summary": "In total a four‑week internship wiping PCs for sensitive data, repairing hardware, helping customers with technical issues, and setting up new devices for customers. Also did some courera certifications and network setup.",
-      "tags": ["Technical Support", "ChatGPT", "Azure"]
+      "summary": "In total a four‑week internship wiping PCs for sensitive data, repairing hardware, helping customers with technical issues, and setting up new devices for customers. Also did some Coursera certifications and network setup.",
+      "tags": ["Technical Support", "TeamViewer", "Azure"]
     }
   ],
   "education": [
@@ -75,14 +86,14 @@
     },
     {
       "name": "Fyrstikken",
-      "description": "Audience voting website for a school awards ceremony. Initially built with a separate backend, later migrated to Vercel server functions.",
+      "description": "Audience voting website for a school awards ceremony. Built with a separate backend",
       "tags": ["TypeScript", "Astro", "MySQL", "Express.js"],
       "url": "https://github.com/F21-Fyrstikken/Fyrstikken"
     },
     {
       "name": "Scam info site",
       "description": "A Website I made as my school assignment during my first few months of web development, and one of my first projects.",
-      "tags": ["Vanilla JS", "HTML", "CSS"],
+      "tags": ["JS", "HTML", "CSS"],
       "url": "https://github.com/InfinitiWarrior/tverfaglig2"
     },
     {
@@ -93,9 +104,15 @@
     },
     {
       "name": "AXO",
-      "description": "Game development project assignment assigned by my school, the team consited of 2 devs, and 6 artists. Made using Godot Engine.",
+      "description": "Game development project assignment assigned by my school, the team consisted of 2 devs, and 6 artists. Made using Godot Engine.",
       "tags": ["Godot"],
       "url": "https://github.com/InfinitiWarrior/spillutvikling-2025"
+    },
+    {
+      "name": "Portfolio",
+      "description": "My Portfolio made with astro and json for metadata driven architecture",
+      "tags": ["Astro"],
+      "url": "https://github.com/InfinitiWarrior/InfinitiWarrior.github.io"
     }
   ],
   "links": [
