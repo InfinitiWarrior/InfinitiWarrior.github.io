@@ -113,6 +113,12 @@
       "description": "My Portfolio made with astro and json for metadata driven architecture",
       "tags": ["Astro"],
       "url": "https://github.com/InfinitiWarrior/InfinitiWarrior.github.io"
+    },
+    {
+      "name": "Oslo Kommune CVE Investigation",
+      "description": "Identified CVE-2026-20841 (CVSS 8.8) affecting Windows Notepad across Oslo Kommune's device fleet. Investigated exposure using Intune Discovered Apps, quantified ~3,239 vulnerable devices across ~23,500 managed endpoints, escalated to EMM team and managed service provider, resulting in emergency patch assessment by security team",
+      "tags": ["Cybersec", "IT Ops"],
+      "url": "https://github.com/InfinitiWarrior/InfinitiWarrior.github.io"
     }
   ],
   "links": [
