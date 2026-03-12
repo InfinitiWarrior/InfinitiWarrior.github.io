@@ -31,7 +31,7 @@
     {
       "icon": "ph:wrench-bold",
       "title": "Misc Languages",
-      "items": ["PHP", "Rust", "Lua", "Bash", "Python", "Java", "GDScript", "Virtual Basic", "PowerShell", "C++", "C", "ASM"]
+      "items": ["PHP", "Rust", "Lua", "Bash", "Python", "PowerShell", "C++", "C", "ASM"]
     },
     {
       "icon": "ph:cloud",
@@ -117,8 +117,7 @@
     {
       "name": "Oslo Kommune CVE Investigation",
       "description": "Identified CVE-2026-20841 (CVSS 8.8) affecting Windows Notepad across Oslo Kommune's device fleet. Investigated exposure using Intune Discovered Apps, quantified ~3,239 vulnerable devices across ~23,500 managed endpoints, escalated to EMM team and managed service provider, resulting in emergency patch assessment by security team",
-      "tags": ["Cybersec", "IT Ops"],
-      "url": "https://github.com/InfinitiWarrior/InfinitiWarrior.github.io"
+      "tags": ["Cybersec", "IT Ops"]
     }
   ],
   "links": [
