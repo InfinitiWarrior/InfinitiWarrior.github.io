@@ -55,6 +55,13 @@
       "tags": ["Network Administration", "Azure", "Technical Support", "Access control" ]
     },
     {
+      "role": "Security Engineer",
+      "company": "info under NDA",
+      "time": "info under NDA",
+      "summary": "Cross-functional security role spanning red team, blue team, and development. Responsibilities include penetration testing, vulnerability remediation, detection engineering, and identity & endpoint management (Microsoft Entra ID/Intune, Global Admin)",
+      "tags": ["Penetration Testing", "Vulnerability Management", "Detection Engineering", "Microsoft Entra ID", "Intune", "Azure", "Network Administration", "Access Control", "Backend Development", "Secure Code Review"  ]
+    },
+    {
       "role": "Frontend Web Developer Intern",
       "company": "Kernekaren AS",
       "time": "March 2024 – March 2024 • Oslo, Norway • On-site",
