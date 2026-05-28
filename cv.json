@@ -1,5 +1,5 @@
 {
-  "name": "Daniel Axelson",
+  "name": "InfinitiWarrior",
   "role": "Security Engineer",
   "tagline": "Developing for small startups, public institutions, and personal projects.",
   "dataTheme": "brg",
@@ -98,12 +98,6 @@
       "url": "https://github.com/F21-Fyrstikken/Fyrstikken"
     },
     {
-      "name": "Scam info site",
-      "description": "A Website I made as my school assignment during my first few months of web development, and one of my first projects.",
-      "tags": ["JS", "HTML", "CSS"],
-      "url": "https://github.com/InfinitiWarrior/tverfaglig2"
-    },
-    {
       "name": "Rust Clicker Game",
       "description": "WIP Simple clicker game I made to learn Rust and Eframe + Egui GUI library basics. Features saving and loading game state.",
       "tags": ["Rust"],
@@ -129,7 +123,6 @@
   ],
   "links": [
     { "label": "GitHub", "url": "https://github.com/InfinitiWarrior" },
-    { "label": "LinkedIn", "url": "https://www.linkedin.com/in/daniel-axelson-63a2a5290/" },
     { "label": "Email", "url": "mailto:infinitiwarrior@infinitiwarrior.com" }
   ]
 }
