@@ -104,10 +104,10 @@
       "url": "https://github.com/InfinitiWarrior/rust-cliker-game"
     },
     {
-      "name": "AXO",
-      "description": "Game development project assignment assigned by my school, the team consisted of 2 devs, and 6 artists. Made using Godot Engine.",
-      "tags": ["Godot"],
-      "url": "https://github.com/InfinitiWarrior/spillutvikling-2025"
+      "name": "Splunk Hackaton Submission",
+      "description": "An AI-powered security operations triage system built on Splunk, powered by the Splunk MCP Server.",
+      "tags": ["Python, Rust, Astro, Typescript, Bash"],
+      "url": "https://github.com/InfinitiWarrior/Splunk-Hackaton-Project"
     },
     {
       "name": "Portfolio",
