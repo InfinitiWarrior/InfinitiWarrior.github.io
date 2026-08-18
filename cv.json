@@ -1,0 +1,135 @@
+{
+  "name": "InfinitiWarrior",
+  "role": "Security Engineer",
+  "tagline": "Developing for small startups, public institutions, and personal projects.",
+  "dataTheme": "brg",
+  "about": [
+    "I am a versatile developer and junior pentester with experience working on solutions for public institutions. My work spans both front-end and back-end development, with a strong focus on building secure, reliable, and maintainable systems.",
+    "I enjoy tackling a wide range of technical challenges and learning new technologies as I go. As a jack-of-all-trades, I adapt quickly, explore modern frameworks, and continuously develop my skills while keeping a solid foundation in core software engineering and cybersecurity principles."
+  ],
+  "skills": [
+    {
+      "icon": "solar:lock-keyhole-broken",
+      "title": "Security Engineering",
+      "items": ["Penetration Testing", "Detection Engineering", "Reverse Engineering", "Identity & Access Management", "Secure Code Review"]
+    },
+    {
+      "icon": "ph:cpu-bold",
+      "title": "Systems Programming",
+      "items": ["Rust", "Go", "Python", "C/C++", "x86-64 Assembly", "Binary Analysis"]
+    },
+    {
+      "icon": "ph:cloud",
+      "title": "Cloud & Infrastructure",
+      "items": ["Azure / Entra ID / Intune", "Kubernetes & Docker", "Linux Administration", "Network Administration", "Bash / PowerShell Scripting"]
+    },
+    {
+      "icon": "twemoji:high-voltage",
+      "title": "Full-Stack Development",
+      "items": ["TypeScript", "React / Next.js", "Astro", "PostgreSQL"]
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Developer",
+      "company": "Fyrstikken",
+      "time": "Aug 2023 – Present • Oslo, Norway • On-site & Remote",
+      "summary": "Built a voting platform for a school awards event, focusing on making the solution easy to maintain by non-developers. Worked across frontend, backend, and server configuration.",
+      "tags": ["TypeScript", "Fullstack Development", "Server configuration", "Astro", "Express.js" ]
+    },
+    {
+      "role": "IT Operations & System Administrator Apprentice",
+      "company": "Municipal public-sector agency",
+      "time": "Aug 2025 – Present • Oslo, Norway • On-site",
+      "summary": "Access and permission management using Intune, Azure, and IDA. Also handles PC repairs & maintenance, helpdesk support, and local network administration using switches, firewalls, and access points.",
+      "tags": ["Network Administration", "Azure", "Technical Support", "Access control" ]
+    },
+    {
+      "role": "Security Engineer",
+      "company": "info under NDA",
+      "time": "info under NDA",
+      "summary": "Cross-functional security role spanning red team, blue team, and development. Responsibilities include penetration testing, vulnerability remediation, detection engineering, and identity & endpoint management (Microsoft Entra ID/Intune, Global Admin)",
+      "tags": ["Penetration Testing", "Vulnerability Management", "Detection Engineering", "Microsoft Entra ID", "Intune", "Azure", "Network Administration", "Access Control", "Backend Development", "Secure Code Review"  ]
+    },
+    {
+      "role": "Frontend Web Developer Intern",
+      "company": "Small marketing/web agency",
+      "time": "March 2024 – March 2024 • Oslo, Norway • On-site",
+      "summary": "One‑week internship doing web development by migrating from wix as well as basic SEO tasks.",
+      "tags": ["Web Development", "SEO"]
+    },
+    {
+      "role": "Tech Support Intern",
+      "company": "IT repair & support franchise",
+      "time": "Oct 2024 – Oct 2024 & Jan 2025 - Feb 2025 • Oslo, Norway • On-site",
+      "summary": "In total a four‑week internship wiping PCs for sensitive data, repairing hardware, helping customers with technical issues, and setting up new devices for customers. Also did some Coursera certifications and network setup.",
+      "tags": ["Technical Support", "TeamViewer", "Azure"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "binary-reconstructor",
+      "description": "Static analysis tool that lifts stripped x86_64 ELF binaries into readable C-like pseudocode through real dataflow analysis — SSA-form IR, CFG recovery from cmp/jcc pairs, GOT-indirect import resolution for -fno-plt binaries. No symbol table required; handles hardened/PIE binaries that trip up Ghidra.",
+      "tags": ["Rust", "Reverse Engineering", "Binary Analysis"],
+      "url": "https://github.com/InfinitiWarrior/binary-reconstructor"
+    },
+    {
+      "name": "azemu",
+      "description": "A local, open-source emulator for Azure, Entra ID, and Intune — Graph/ARM/Intune APIs, real OAuth2 token issuance and enforcement, and Docker-backed VM simulation with billing tracking, for dev/test/learning without touching a real tenant.",
+      "tags": ["Rust", "Azure", "Entra ID", "Intune"],
+      "url": "https://github.com/InfinitiWarrior/azemu"
+    },
+    {
+      "name": "systemd-audit",
+      "description": "A rogue systemd unit detector. Baselines every unit file, drop-in override, and transient runtime unit on a Linux system, then flags new, modified, masked, or suspiciously transient changes — the persistence surface most file-integrity tools miss.",
+      "tags": ["Rust", "Detection Engineering", "Linux"],
+      "url": "https://github.com/InfinitiWarrior/systemd-audit"
+    },
+    {
+      "name": "git-annales",
+      "description": "A git repository forensic time-traveler. Walks the full commit graph to reconstruct a security timeline — secrets that ever existed, dependency mutations, config drift, and suspicious commit patterns — instead of only looking at HEAD.",
+      "tags": ["Rust", "Forensics", "Git"],
+      "url": "https://github.com/InfinitiWarrior/git-annales"
+    },
+    {
+      "name": "pharos",
+      "description": "An adversarial WiFi fuzzing framework — byte-by-byte IEEE 802.11 beacon frame construction and mutation, with hostapd integration and packet injection, for testing wireless stacks against malformed frames.",
+      "tags": ["Rust", "Wireless Security", "Fuzzing"],
+      "url": "https://github.com/InfinitiWarrior/pharos"
+    },
+    {
+      "name": "Vigil",
+      "description": "Typed, async/await-native authentication middleware for Node.js — a focused replacement for the middleware Passport.js used to own, not a full auth platform. 172 tests across 19 packages.",
+      "tags": ["TypeScript", "Node.js", "Auth"],
+      "url": "https://github.com/InfinitiWarrior/Vigil"
+    },
+    {
+      "name": "AI-Barracks",
+      "description": "A self-hosted AI assistant desktop app — bring your own API key, everything runs locally. Rust/Tauri backend, React + TypeScript frontend, SQLite storage.",
+      "tags": ["Rust", "TypeScript", "Tauri"],
+      "url": "https://github.com/InfinitiWarrior/AI-Barracks"
+    },
+    {
+      "name": "Fyrstikken",
+      "description": "Audience voting website for a school awards ceremony. Built with a separate backend",
+      "tags": ["TypeScript", "Astro", "MySQL", "Express.js"],
+      "url": "https://github.com/F21-Fyrstikken/Fyrstikken"
+    },
+    {
+      "name": "TriagaSOAR",
+      "description": "An AI-powered security operations triage system built on Splunk, powered by the Splunk MCP Server.",
+      "tags": ["Python", "Rust", "Astro", "TypeScript", "Bash"],
+      "url": "https://github.com/InfinitiWarrior/Splunk-Hackaton-Project"
+    },
+    {
+      "name": "Portfolio",
+      "description": "My Portfolio made with astro and json for metadata driven architecture",
+      "tags": ["Astro"],
+      "url": "https://github.com/InfinitiWarrior/InfinitiWarrior.github.io"
+    }
+  ],
+  "links": [
+    { "label": "GitHub", "url": "https://github.com/InfinitiWarrior" },
+    { "label": "Email", "url": "mailto:infinitiwarrior@infinitiwarrior.com" }
+  ]
+}

@@ -1,0 +1,5 @@
+node_modules
+.next
+.astro
+.DS_Store
+dist
