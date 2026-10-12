@@ -4,7 +4,7 @@
   "tagline": "Developing for small startups, public institutions, and personal projects.",
   "dataTheme": "brg",
   "about": [
-    "I am a versatile developer and junior pentester with experience working on solutions for public institutions. My work spans both front-end and back-end development, with a strong focus on building secure, reliable, and maintainable systems.",
+    "I am a versatile developer and pentester with experience working on solutions for public institutions. My work spans both front-end and back-end development, with a strong focus on building secure, reliable, and maintainable systems.",
     "I enjoy tackling a wide range of technical challenges and learning new technologies as I go. As a jack-of-all-trades, I adapt quickly, explore modern frameworks, and continuously develop my skills while keeping a solid foundation in core software engineering and cybersecurity principles."
   ],
   "skills": [
@@ -102,12 +102,6 @@
       "description": "Typed, async/await-native authentication middleware for Node.js — a focused replacement for the middleware Passport.js used to own, not a full auth platform. 172 tests across 19 packages.",
       "tags": ["TypeScript", "Node.js", "Auth"],
       "url": "https://github.com/InfinitiWarrior/Vigil"
-    },
-    {
-      "name": "AI-Barracks",
-      "description": "A self-hosted AI assistant desktop app — bring your own API key, everything runs locally. Rust/Tauri backend, React + TypeScript frontend, SQLite storage.",
-      "tags": ["Rust", "TypeScript", "Tauri"],
-      "url": "https://github.com/InfinitiWarrior/AI-Barracks"
     },
     {
       "name": "Fyrstikken",
